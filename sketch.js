@@ -176,9 +176,9 @@ if(frameCount>240&&frameCount<270){
 image(obstacle_1,500,600)
 }
 
-if(frameCount>=270){
-  krishna.addImage("krish",mario)
-}
+//if(frameCount>=270){
+ // krishna.addImage("krish",mario)
+//}
 
 //destroying enemy2
 if(enemy2.isTouching(krishna)){
